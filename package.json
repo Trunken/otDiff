@@ -1,0 +1,25 @@
+{
+  "name": "live-diff",
+  "version": "0.1.0",
+  "description": "Get zero effort json-0 diff",
+  "main": "index.js",
+  "author": "Raoul Baron",
+  "license": "MIT",
+  "dependencies": {
+    "nanoid": "^3.1.9",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "webpack": "^4.43.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "jest": {
+    "coverageReporters": [
+      "html"
+    ]
+  }
+}
