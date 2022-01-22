@@ -6,7 +6,7 @@
   "author": "Raoul Baron",
   "license": "MIT",
   "dependencies": {
-    "nanoid": "3.1.20"
+    "nanoid": "3.1.31"
   },
   "devDependencies": {
     "@rollup/plugin-babel": "5.2.2",
